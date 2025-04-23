@@ -1,4 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Website
+
+My personal website built with Next.js 15.3.1, featuring:
+
+- Interactive background and draggable categories
+- Book reviews and summaries
+- Collections of inspirational and philosophical quotes
+- Personal insights on startups, fitness, and life learnings
+
+## Technologies Used
+
+- Next.js 15.3.1
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Markdown for content
+
+## Deployment
+
+The site is deployed on Vercel.
+
+## Running Locally
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
+```
 
 ## Getting Started
 
