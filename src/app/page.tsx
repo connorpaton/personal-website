@@ -13,10 +13,10 @@ const categories = [
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen overflow-hidden">
+    <main className="fixed inset-0 w-full h-full overflow-hidden">
       <InteractiveBackground />
       
-      <div className="relative z-10 h-screen w-full">
+      <div className="relative z-10 h-full w-full">
         {categories.map((category, index) => (
           <DraggableCategory
             key={category.name}
