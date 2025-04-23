@@ -8,6 +8,7 @@ const categories = [
   { name: 'Fitness', path: '/fitness' },
   { name: 'Life Learnings', path: '/lifelearnings' },
   { name: 'Books', path: '/books' },
+  { name: 'Quotes', path: '/quotes' },
 ];
 
 export default function Home() {

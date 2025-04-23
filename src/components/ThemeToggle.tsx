@@ -5,7 +5,7 @@ import { useTheme } from '@/context/ThemeContext';
 import { useEffect, useRef } from 'react';
 
 export default function ThemeToggle() {
-  const { theme, toggleTheme } = useTheme();
+  const { toggleTheme } = useTheme();
   const x = useMotionValue(0);
   const y = useMotionValue(0);
   const elementRef = useRef<HTMLButtonElement>(null);

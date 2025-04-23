@@ -1,17 +1,26 @@
 import { getPostBySlug } from '@/lib/markdown';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
+import { Metadata } from 'next';
 
-interface PostPageProps {
-  params: {
+export const metadata: Metadata = {
+  title: 'Post',
+  description: 'Read the full post',
+};
+
+type Props = {
+  params: Promise<{
     category: string;
     slug: string;
-  };
-}
+  }>;
+};
 
-export default async function PostPage({ params }: PostPageProps) {
+export default async function Page(props: Props) {
+  const params = await props.params;
+  const { category, slug } = params;
+  
   try {
-    const post = await getPostBySlug(params.category, params.slug);
+    const post = await getPostBySlug(category, slug);
 
     return (
       <article className="max-w-4xl mx-auto px-4 py-8">
@@ -37,7 +46,7 @@ export default async function PostPage({ params }: PostPageProps) {
         />
       </article>
     );
-  } catch (error) {
+  } catch {
     notFound();
   }
 } 
