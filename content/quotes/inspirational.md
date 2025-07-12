@@ -25,6 +25,8 @@ A collection of quotes that have shaped my thinking and provided guidance during
 
 > "Life is what happens when you're busy making other plans." — John Lennon
 
+> "All men dream, but not equally. Those who dream by night in the dusty recesses of their minds, wake in the day to find that it was vanity: but the dreamers of the day are dangerous men, for they may act on their dreams with open eyes, to make them possible." — T.E. Lawrence
+
 ## On Growth and Challenge
 
 > "What you get by achieving your goals is not as important as what you become by achieving your goals." — Zig Ziglar
