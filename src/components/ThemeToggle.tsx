@@ -3,6 +3,7 @@
 import { motion, useMotionValue } from 'framer-motion';
 import { useTheme } from '@/context/ThemeContext';
 import { useEffect, useRef } from 'react';
+import Image from 'next/image';
 
 export default function ThemeToggle() {
   const { toggleTheme } = useTheme();
@@ -94,12 +95,23 @@ export default function ThemeToggle() {
       onDragEnd={handleDragEnd}
       onClick={handleClick}
       style={{ x, y }}
-      className="fixed top-0 right-0 p-4 text-4xl font-signature text-white dark:text-white cursor-move hover:opacity-80 transition-opacity z-50"
+      className="fixed top-0 right-0 flex items-center gap-2 px-3 py-2 bg-black/10 dark:bg-white/10 backdrop-blur-sm rounded-lg cursor-move hover:opacity-90 transition-all z-50"
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
       aria-label="Toggle theme"
     >
-      Connor Paton
+      <div className="relative w-12 h-12 rounded-full overflow-hidden">
+        <Image 
+          src="/images/Connorfavicon.png" 
+          alt="Connor Avatar" 
+          width={48} 
+          height={48}
+          className="object-cover"
+        />
+      </div>
+      <span className="text-2xl font-bebas-neue text-white dark:text-white tracking-wide">
+        Connor Paton
+      </span>
     </motion.button>
   );
 } 

@@ -12,6 +12,7 @@ const config: Config = {
       fontFamily: {
         signature: ['Brush Script MT', 'cursive'],
         notepad: ['"Reenie Beanie"', 'cursive'],
+        'bebas-neue': ['var(--font-bebas-neue)', 'sans-serif'],
       },
       typography: {
         DEFAULT: {

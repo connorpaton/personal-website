@@ -1,14 +1,26 @@
 import type { Metadata } from "next";
-import { Inter, Reenie_Beanie } from "next/font/google";
+import { Inter, Reenie_Beanie, Bebas_Neue } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/context/ThemeContext";
 import ThemeToggle from "@/components/ThemeToggle";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ 
+  subsets: ["latin"],
+  display: 'swap',
+});
+
 const reenieBeanie = Reenie_Beanie({ 
   weight: "400",
   subsets: ["latin"],
   variable: "--font-reenie-beanie",
+  display: 'swap',
+});
+
+const bebasNeue = Bebas_Neue({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-bebas-neue",
+  display: 'swap',
 });
 
 export const metadata: Metadata = {
@@ -38,7 +50,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.className} ${reenieBeanie.variable} antialiased`}>
+      <body className={`${inter.className} ${reenieBeanie.variable} ${bebasNeue.variable} antialiased`}>
         <ThemeProvider>
           <ThemeToggle />
           {children}

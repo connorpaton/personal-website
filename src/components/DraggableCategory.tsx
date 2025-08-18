@@ -121,7 +121,7 @@ export default function DraggableCategory({ name, path, index }: DraggableCatego
           }}
         >
           <span className="text-2xl">{theme.icon}</span>
-          <span className="text-xl">{name}</span>
+          <span className="text-xl font-bebas-neue tracking-wide">{name}</span>
         </motion.div>
       </Link>
     </motion.div>
