@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import Starfield from '@/components/Starfield';
 
 const categories = [
   { name: 'Startups', path: '/startups' },
@@ -13,9 +14,11 @@ const categories = [
 
 export default function Home() {
   return (
-    <main className="h-screen overflow-hidden bg-black">
+    <main className="h-screen overflow-hidden bg-black relative">
+      {/* Starfield Background */}
+      <Starfield />
       {/* Main Content - Centered */}
-      <div className="flex flex-col items-center justify-center h-screen">
+      <div className="flex flex-col items-center justify-center h-screen relative z-10">
         {/* Name - Above Signature */}
         <motion.h1 
           className="text-7xl font-bold mb-8 tracking-tight text-white"
