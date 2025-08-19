@@ -78,11 +78,11 @@ export default function Home() {
               transition={{ duration: 0.5, delay: 1.0 + index * 0.1 }}
               whileHover={{ scale: 1.05, y: -5 }}
               whileTap={{ scale: 0.98 }}
-              className="flex-1 mx-2"
+              className="flex-1 mx-2 min-w-0"
             >
               <Link href={category.path}>
                 <div className="px-6 py-6 rounded-2xl font-semibold text-lg transition-all duration-300 bg-white/10 text-white hover:bg-white/20 backdrop-blur-sm text-center shadow-lg hover:shadow-xl">
-                  <div className="text-lg font-medium">
+                  <div className="text-lg font-medium whitespace-normal leading-relaxed tracking-wide">
                     {category.name}
                   </div>
                 </div>
