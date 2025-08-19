@@ -54,7 +54,7 @@ export default function Starfield() {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
       
       // Update and draw stars
-      starsRef.current.forEach((star, index) => {
+      starsRef.current.forEach((star) => {
         // Move star down
         star.y += star.speed;
         
