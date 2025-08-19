@@ -2,7 +2,7 @@
 title: "Atomic Habits by James Clear"
 description: "A practical guide to building good habits and breaking bad ones"
 date: "2024-03-21"
-image: "/images/atomic-habits.jpg"
+
 ---
 
 # Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones

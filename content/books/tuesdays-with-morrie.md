@@ -2,7 +2,7 @@
 title: "Tuesdays with Morrie by Mitch Albom"
 description: "Life lessons from a dying professor"
 date: "2024-04-12"
-image: "/images/tuesdays-with-morrie.jpg"
+
 ---
 
 # Tuesdays with Morrie: An Old Man, a Young Man, and Life's Greatest Lesson

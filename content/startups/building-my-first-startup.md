@@ -2,7 +2,6 @@
 title: "Building My First Startup"
 description: "Lessons learned from my journey building a tech startup from scratch"
 date: "2024-03-20"
-image: "/images/startup-journey.jpg"
 ---
 
 # Building My First Startup

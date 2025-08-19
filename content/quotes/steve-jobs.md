@@ -2,7 +2,6 @@
 title: "Steve Jobs Quotes"
 description: "Inspirational quotes from Apple co-founder and visionary Steve Jobs"
 date: "2025-07-11"
-image: "/images/steve-jobs-quotes.jpg"
 ---
 
 # Steve Jobs Quotes

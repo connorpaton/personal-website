@@ -2,7 +2,7 @@
 title: "Philosophical Quotes"
 description: "Thought-provoking philosophical quotes that challenge conventional thinking"
 date: "2024-05-12"
-image: "/images/philosophical-quotes.jpg"
+
 ---
 
 # Philosophical Quotes

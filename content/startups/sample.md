@@ -1,7 +1,7 @@
 ---
 title: "Building a Startup: Lessons Learned"
 description: "Key insights from my journey in building and scaling startups"
-image: "/images/startup-journey.jpg"
+
 ---
 
 # Building a Startup: Lessons Learned

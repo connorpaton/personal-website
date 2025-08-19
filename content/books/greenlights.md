@@ -2,7 +2,7 @@
 title: "Greenlights by Matthew McConaughey"
 description: "An unconventional memoir about catching life's greenlights"
 date: "2024-04-26"
-image: "/images/greenlights.jpg"
+
 ---
 
 # Greenlights: Your Journal, Your Destiny

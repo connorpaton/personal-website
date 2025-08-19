@@ -2,7 +2,7 @@
 title: "When I Stop Talking, You'll Know I'm Dead by Jerry Weintraub"
 description: "Useful stories from a persuasive man"
 date: "2024-04-19"
-image: "/images/when-i-stop-talking.jpg"
+
 ---
 
 # When I Stop Talking, You'll Know I'm Dead: Useful Stories from a Persuasive Man

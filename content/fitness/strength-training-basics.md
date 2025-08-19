@@ -2,7 +2,6 @@
 title: "Strength Training Basics"
 description: "A comprehensive guide to getting started with strength training"
 date: "2024-03-19"
-image: "/images/strength-training.jpg"
 ---
 
 # Strength Training Basics

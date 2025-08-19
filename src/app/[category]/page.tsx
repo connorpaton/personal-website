@@ -31,6 +31,21 @@ export default async function Page(props: Props) {
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
+      {/* Back Button */}
+      <Link 
+        href="/"
+        className="inline-flex items-center mb-6 text-white/70 hover:text-white transition-colors duration-200 group p-2 rounded-lg hover:bg-white/10"
+      >
+        <svg 
+          className="w-6 h-6 transform group-hover:-translate-x-1 transition-transform duration-200" 
+          fill="none" 
+          stroke="currentColor" 
+          viewBox="0 0 24 24"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+        </svg>
+      </Link>
+      
       <h1 className="text-4xl font-bold mb-8 capitalize">{category}</h1>
       
       <div className="grid gap-8">

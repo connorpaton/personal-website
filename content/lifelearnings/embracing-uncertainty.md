@@ -2,7 +2,7 @@
 title: "Embracing Uncertainty"
 description: "How learning to embrace uncertainty led to personal growth"
 date: "2024-03-18"
-image: "/images/uncertainty.jpg"
+
 ---
 
 # Embracing Uncertainty

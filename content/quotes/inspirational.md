@@ -2,7 +2,7 @@
 title: "Inspirational Quotes"
 description: "A collection of quotes that have inspired me"
 date: "2024-05-10"
-image: "/images/inspirational-quotes.jpg"
+
 ---
 
 # Inspirational Quotes

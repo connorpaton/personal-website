@@ -2,7 +2,7 @@
 title: "Shoe Dog by Phil Knight"
 description: "A memoir by the creator of Nike"
 date: "2024-04-05"
-image: "/images/shoe-dog.jpg"
+
 ---
 
 # Shoe Dog: A Memoir by the Creator of Nike

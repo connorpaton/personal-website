@@ -2,7 +2,7 @@
 title: "The Prophet Song by Paul Lynch"
 description: "A dystopian novel about a family torn apart"
 date: "2024-05-03"
-image: "/images/the-prophet-song.jpg"
+
 ---
 
 # The Prophet Song: A Dystopian Warning
