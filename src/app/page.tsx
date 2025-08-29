@@ -14,7 +14,7 @@ const categories = [
 
 export default function Home() {
   return (
-    <main className="h-screen overflow-hidden bg-black relative">
+    <main className="h-screen overflow-hidden bg-black relative" data-page="home">
       {/* Starfield Background */}
       <Starfield />
       {/* Main Content - Centered */}
