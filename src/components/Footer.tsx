@@ -1,16 +1,16 @@
 export default function Footer() {
   return (
-    <footer className="mt-12 border-t border-white/10 bg-black/50 backdrop-blur-sm">
+    <footer className="mt-12 border-t border-black/10 bg-[#E8E4DC] backdrop-blur-sm">
       <div className="max-w-3xl mx-auto px-8 sm:px-12 lg:px-16 py-8">
         <div className="text-center">
-          <h3 className="text-lg font-bold mb-3 text-white">Connor Paton</h3>
+          <h3 className="text-lg font-bold mb-3 text-black" style={{ fontFamily: 'Recoleta, Georgia, "Times New Roman", serif', fontWeight: '900' }}>Connor Paton</h3>
           
           <div className="flex justify-center space-x-4">
             <a 
               href="https://twitter.com/connorpaton" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-white/50 hover:text-white transition-colors duration-200"
+              className="text-black/50 hover:text-black transition-colors duration-200"
             >
               <span className="sr-only">Twitter</span>
               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
@@ -21,7 +21,7 @@ export default function Footer() {
               href="https://linkedin.com/in/connorpaton" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-white/50 hover:text-white transition-colors duration-200"
+              className="text-black/50 hover:text-black transition-colors duration-200"
             >
               <span className="sr-only">LinkedIn</span>
               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
@@ -32,7 +32,7 @@ export default function Footer() {
               href="https://github.com/connorpaton" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-white/50 hover:text-white transition-colors duration-200"
+              className="text-black/50 hover:text-black transition-colors duration-200"
             >
               <span className="sr-only">GitHub</span>
               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">

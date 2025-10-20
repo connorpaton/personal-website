@@ -2,27 +2,53 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  box-sizing: border-box;
+}
+
+/* Recoleta Font */
+@font-face {
+  font-family: 'Recoleta';
+  src: url('/fonts/Recoleta-RegularDEMO.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Recoleta';
+  src: url('/fonts/Recoleta Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
-  --foreground-rgb: 255, 255, 255;
-  --background-rgb: 0, 0, 0;
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 245, 241, 232;
 }
 
 html {
   height: 100%;
+  background: #F5F1E8;
+  overscroll-behavior: none;
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: rgb(var(--background-rgb));
+  background: #F5F1E8;
   min-height: 100vh;
   margin: 0;
   padding: 0;
+  overscroll-behavior: none;
 }
 
 /* Only hide overflow on the homepage */
 body:has([data-page="home"]) {
   overflow: hidden;
   height: 100vh;
+  background: transparent;
+  color: white;
 }
 
 @layer base {
