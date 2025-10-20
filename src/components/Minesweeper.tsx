@@ -20,17 +20,15 @@ export default function Minesweeper({ onClose }: { onClose: () => void }) {
   const [board, setBoard] = useState<Cell[][]>(() => makeEmptyBoard(9, 9));
   const [state, setState] = useState<GameState>('ready');
   const [flags, setFlags] = useState(0);
-  const [startTime, setStartTime] = useState<number | null>(null);
   const [elapsed, setElapsed] = useState(0);
   const timerRef = useRef<number | null>(null);
 
-  const reset = useCallback((w = width, h = height, m = mines) => {
+  const reset = useCallback((w = width, h = height) => {
     setBoard(makeEmptyBoard(w, h));
     setState('ready');
     setFlags(0);
-    setStartTime(null);
     setElapsed(0);
-  }, [width, height, mines]);
+  }, [width, height]);
 
   useEffect(() => {
     if (state === 'running') {
@@ -65,7 +63,6 @@ export default function Minesweeper({ onClose }: { onClose: () => void }) {
 
     if (state === 'ready') {
       setState('running');
-      setStartTime(Date.now());
     }
 
     const cell = next[y][x];
@@ -103,9 +100,9 @@ export default function Minesweeper({ onClose }: { onClose: () => void }) {
   };
 
   const changeDifficulty = (preset: 'beginner' | 'intermediate' | 'expert') => {
-    if (preset === 'beginner') { setWidth(9); setHeight(9); setMines(10); reset(9, 9, 10); }
-    if (preset === 'intermediate') { setWidth(16); setHeight(16); setMines(40); reset(16, 16, 40); }
-    if (preset === 'expert') { setWidth(30); setHeight(16); setMines(99); reset(30, 16, 99); }
+    if (preset === 'beginner') { setWidth(9); setHeight(9); setMines(10); reset(9, 9); }
+    if (preset === 'intermediate') { setWidth(16); setHeight(16); setMines(40); reset(16, 16); }
+    if (preset === 'expert') { setWidth(30); setHeight(16); setMines(99); reset(30, 16); }
     firstClickSeed.current = { placed: false };
   };
 
