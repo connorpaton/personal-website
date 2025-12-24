@@ -46,10 +46,23 @@ export async function getPostBySlug(category: string, slug: string): Promise<Pos
 
 export async function getAllPosts(category: string): Promise<Post[]> {
   const categoryPath = path.join(contentDirectory, category);
+  
+  // Check if directory exists
+  if (!fs.existsSync(categoryPath)) {
+    return [];
+  }
+  
   const files = fs.readdirSync(categoryPath);
   
+  // Filter out non-markdown files and handle empty directories
+  const markdownFiles = files.filter((file) => file.endsWith('.md'));
+  
+  if (markdownFiles.length === 0) {
+    return [];
+  }
+  
   const posts = await Promise.all(
-    files.map(async (filename) => {
+    markdownFiles.map(async (filename) => {
       const slug = filename.replace(/\.md$/, '');
       return getPostBySlug(category, slug);
     })
