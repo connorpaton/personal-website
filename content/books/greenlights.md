@@ -6,6 +6,8 @@ date: "2024-04-26"
 
 # Greenlights: Your Journal, Your Destiny
 
+📚 [View on Goodreads](https://www.goodreads.com/book/show/52838315-greenlights)
+
 Matthew McConaughey's memoir is a refreshingly authentic exploration of life philosophy, personal growth, and the art of turning obstacles into opportunities.
 
 ## Key Concepts

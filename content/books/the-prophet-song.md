@@ -6,6 +6,8 @@ date: "2024-05-03"
 
 # The Prophet Song: A Dystopian Warning
 
+📚 [View on Goodreads](https://www.goodreads.com/book/show/61431922-prophet-song)
+
 Despite winning the Booker Prize in 2023, Paul Lynch's "The Prophet Song" struck me as a rather mundane read that failed to fully engage me on an emotional level.
 
 ## Key Concepts

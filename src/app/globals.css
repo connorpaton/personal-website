@@ -46,7 +46,6 @@ html.dark {
 html {
   height: 100%;
   background: rgb(var(--background-rgb));
-  overscroll-behavior: none;
 }
 
 body {
@@ -55,7 +54,6 @@ body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  overscroll-behavior: none;
   text-rendering: optimizeLegibility;
 }
 

@@ -6,6 +6,8 @@ date: "2024-04-19"
 
 # When I Stop Talking, You'll Know I'm Dead: Useful Stories from a Persuasive Man
 
+📚 [View on Goodreads](https://www.goodreads.com/book/show/6919806-when-i-stop-talking-you-ll-know-i-m-dead)
+
 Jerry Weintraub's autobiography offers an extraordinary masterclass in relationship building, creative problem-solving, and the art of making things happen in business and entertainment.
 
 ## Key Concepts
