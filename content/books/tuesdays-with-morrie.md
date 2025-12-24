@@ -38,4 +38,4 @@ Morrie's wisdom has influenced how I approach life:
 
 ## Final Thoughts
 
-This book serves as a gentle but powerful reminder that our culture's definition of success often misses what makes life meaningful. Morrie's lessons—delivered from the edge of life—provide clarity about what we should value while we have time to do so.
+This book serves as a gentle but powerful reminder that our culture's definition of success often misses what makes life meaningful. Morrie's lessons - delivered from the edge of life - provide clarity about what we should value while we have time to do so.

@@ -4,6 +4,14 @@ import Nav from '@/components/Nav';
 
 const BLOG_CATEGORIES = ['lifelearnings', 'startups', 'fitness', 'books', 'quotes'] as const;
 
+const categoryLabels: { [key: string]: string } = {
+  lifelearnings: 'Life',
+  startups: 'Startups',
+  fitness: 'Fitness',
+  books: 'Books',
+  quotes: 'Quotes',
+};
+
 export default async function Home() {
   const posts = await getAllPostsAcrossCategories([...BLOG_CATEGORIES]);
   const latest = posts.slice(0, 8);
@@ -18,21 +26,19 @@ export default async function Home() {
           <Nav />
         </div>
         <p className="mt-6 text-lg leading-relaxed text-black/80 dark:text-white/80">
-          I&apos;m Connor — I build, write, and learn in public. This site is a living
-          notebook: short essays, notes, and takeaways on startups, life,
-          fitness, books, and ideas.
+          Hi, I&apos;m Connor. I love ideas (good or bad), building, and most of all — people. Currently spending my time building <a href="https://tembo.io" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-black dark:hover:text-white">tembo.io</a> with friends.
         </p>
         <div className="mt-6 flex flex-wrap gap-3 text-sm text-black/75 dark:text-white/75">
-          <a className="link" href="mailto:connor@tembo.io">
-            Email
-          </a>
-          <span className="text-black/50 dark:text-white/50">/</span>
           <a className="link" href="https://x.com/connorpaton" target="_blank" rel="noopener noreferrer">
             X
           </a>
           <span className="text-black/50 dark:text-white/50">/</span>
           <a className="link" href="https://www.linkedin.com/in/connormpaton/" target="_blank" rel="noopener noreferrer">
             LinkedIn
+          </a>
+          <span className="text-black/50 dark:text-white/50">/</span>
+          <a className="link" href="mailto:connor@tembo.io">
+            Email
           </a>
           <span className="text-black/50 dark:text-white/50">/</span>
           <Link className="link" href="/writing">
@@ -67,7 +73,7 @@ export default async function Home() {
                 {post.description}
               </div>
               <div className="mt-2 text-[11px] tracking-wide text-black/60 dark:text-white/60 uppercase">
-                {post.category}
+                {categoryLabels[post.category] || post.category}
               </div>
             </Link>
           ))}

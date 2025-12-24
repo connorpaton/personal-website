@@ -39,4 +39,4 @@ I've applied several concepts from the book in my daily life:
 
 ## Final Thoughts
 
-This book isn't just about habits—it's about becoming the person you want to be through small, consistent actions. Highly recommended for anyone interested in personal development and behavioral psychology.
+This book isn't just about habits - it's about becoming the person you want to be through small, consistent actions. Highly recommended for anyone interested in personal development and behavioral psychology.

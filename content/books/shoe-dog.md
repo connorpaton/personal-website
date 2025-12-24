@@ -38,4 +38,4 @@ Knight's journey has influenced my approach to business and life:
 
 ## Final Thoughts
 
-Shoe Dog isn't just a business memoir—it's a deeply human story about risk, relationships, and the relentless pursuit of something meaningful. Knight's vulnerability and honesty make this an inspiring read for entrepreneurs and dreamers alike.
+Shoe Dog isn't just a business memoir - it's a deeply human story about risk, relationships, and the relentless pursuit of something meaningful. Knight's vulnerability and honesty make this an inspiring read for entrepreneurs and dreamers alike.

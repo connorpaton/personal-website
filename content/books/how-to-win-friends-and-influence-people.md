@@ -26,8 +26,8 @@ Dale Carnegie's classic guide to interpersonal relationships remains as relevant
 
 Carnegie's principles have fundamentally shaped my approach to relationships and leadership:
 
-- **Ego Management**: If it moves you forward, who cares who gets credit for the idea—letting others shine creates stronger alliances
-- **Intellectual Humility**: Never be the smartest person in a room—surrounding yourself with brilliant minds accelerates growth
+- **Ego Management**: If it moves you forward, who cares who gets credit for the idea - letting others shine creates stronger alliances
+- **Intellectual Humility**: Never be the smartest person in a room - surrounding yourself with brilliant minds accelerates growth
 - **Strategic Positioning**: Understanding the crucial difference between respectability and likeability in professional contexts
 
 ## Favorite Quotes
@@ -40,4 +40,4 @@ Carnegie's principles have fundamentally shaped my approach to relationships and
 
 ## Final Thoughts
 
-While some dismiss Carnegie's work as manipulative, I've found it to be the opposite—it's about genuine human connection and creating value for others. The book's genius lies in showing that influence isn't about dominating others, but about understanding what drives them and finding mutual benefit. The tension between being respected versus being liked is one of leadership's greatest challenges, and Carnegie provides a framework for navigating both.
+While some dismiss Carnegie's work as manipulative, I've found it to be the opposite - it's about genuine human connection and creating value for others. The book's genius lies in showing that influence isn't about dominating others, but about understanding what drives them and finding mutual benefit. The tension between being respected versus being liked is one of leadership's greatest challenges, and Carnegie provides a framework for navigating both.

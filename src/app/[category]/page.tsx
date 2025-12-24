@@ -72,7 +72,7 @@ export default async function Page(props: Props) {
               {post.description}
             </div>
             <div className="mt-2 text-[11px] tracking-wide text-black/60 dark:text-white/60 uppercase">
-              {category}
+              {displayName}
             </div>
           </Link>
         ))}

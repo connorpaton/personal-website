@@ -38,4 +38,4 @@ McConaughey's philosophy has impacted my approach to life's challenges:
 
 ## Final Thoughts
 
-This book defies easy categorization—part memoir, part life philosophy, part spiritual journey. McConaughey's unconventional wisdom and storytelling combine to create a work that inspires readers to catch their own greenlights and create a life of meaning and authentic success.
+This book defies easy categorization - part memoir, part life philosophy, part spiritual journey. McConaughey's unconventional wisdom and storytelling combine to create a work that inspires readers to catch their own greenlights and create a life of meaning and authentic success.
