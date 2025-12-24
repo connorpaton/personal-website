@@ -1,7 +1,7 @@
-import { getPostBySlug } from '@/lib/markdown';
+import { getPostBySlug, getAllPostsAcrossCategories } from '@/lib/markdown';
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
-import Link from 'next/link';
+import BackNav from '@/components/BackNav';
 
 export const metadata: Metadata = {
   title: 'Post',
@@ -15,6 +15,16 @@ type Props = {
   }>;
 };
 
+export async function generateStaticParams() {
+  const categories = ['lifelearnings', 'startups', 'fitness', 'books', 'quotes'];
+  const allPosts = await getAllPostsAcrossCategories(categories);
+  
+  return allPosts.map((post) => ({
+    category: post.category,
+    slug: post.slug,
+  }));
+}
+
 export default async function Page(props: Props) {
   const params = await props.params;
   const { category, slug } = params;
@@ -22,76 +32,51 @@ export default async function Page(props: Props) {
   try {
     const post = await getPostBySlug(category, slug);
 
+    if (!post) {
+      notFound();
+    }
+
     return (
-      <>
-        {/* Top Bar */}
-        <div className="bg-[#F5F1E8]" style={{ height: '2vh' }}></div>
-        <div className="bg-[#F5F1E8] text-black pt-12 px-12 pb-12 md:pt-16 md:px-16 md:pb-16 lg:pt-20 lg:px-20 lg:pb-20" style={{ fontFamily: 'Recoleta, Georgia, "Times New Roman", serif', marginLeft: '5%' }}>
-          {/* Back Button - Top Left */}
-          <div className="mb-8">
-            <Link 
-              href={`/${category}`}
-              className="inline-flex items-center text-black/60 hover:text-black transition-colors duration-200 group p-3 rounded-lg hover:bg-black/5"
-            >
-              <svg 
-                className="w-5 h-5 mr-2 transform group-hover:-translate-x-1 transition-transform duration-200" 
-                fill="none" 
-                stroke="currentColor" 
-                viewBox="0 0 24 24"
-              >
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-              </svg>
-              <span className="text-sm font-medium">Back</span>
-            </Link>
+      <main className="container-essay py-16">
+        <header className="mb-10">
+          <BackNav href={`/${category}`} label="← Back" />
+
+          <h1 className="mt-8 text-3xl sm:text-4xl font-semibold tracking-tight text-black dark:text-white">{post.title}</h1>
+          {post.description ? (
+            <p className="mt-4 text-lg leading-relaxed text-black/80 dark:text-white/80">{post.description}</p>
+          ) : null}
+          <div className="mt-4 text-sm text-black/60 dark:text-white/60">
+            <span className="uppercase tracking-wide">{category}</span>
+            <span className="mx-2 text-black/35 dark:text-white/35">/</span>
+            <span>{post.date}</span>
           </div>
-          
-          {/* Content Container - Centered with max width */}
-          <div className="max-w-3xl mx-auto">
-            {/* Header Section */}
-            <div className="mb-16 text-center">
-              <h1 className="text-5xl sm:text-6xl font-bold mb-6 leading-tight tracking-tight" style={{ fontWeight: '900' }}>{post.title}</h1>
-              <p className="text-xl text-black/70 leading-relaxed font-light">{post.description}</p>
+        </header>
+
+        {post.image && post.image.trim() !== '' ? (
+          <div className="mb-10">
+            <div className="overflow-hidden rounded-xl border border-black/10 dark:border-white/15 bg-black/[0.02] dark:bg-white/[0.04]">
+              <img src={post.image} alt={post.title} className="w-full h-auto object-cover" />
             </div>
-
-            {/* Featured Image */}
-            {post.image && post.image.trim() !== '' && (
-              <div className="mb-16">
-                <div className="w-full rounded-xl overflow-hidden shadow-2xl">
-                  <img
-                    src={post.image}
-                    alt={post.title}
-                    className="w-full h-auto object-contain"
-                    style={{ maxHeight: '400px' }}
-                  />
-                </div>
-              </div>
-            )}
-
-            {/* Content */}
-            <div
-              className="notion-content prose prose-xl prose-stone max-w-none
-                         prose-headings:font-bold prose-headings:tracking-tight prose-headings:text-black
-                         prose-h1:text-4xl prose-h1:mb-8 prose-h1:mt-12
-                         prose-h2:text-3xl prose-h2:mb-6 prose-h2:mt-10
-                         prose-h3:text-2xl prose-h3:mb-4 prose-h3:mt-8
-                         prose-p:text-lg prose-p:leading-relaxed prose-p:mb-6 prose-p:text-black/90
-                         prose-strong:text-black prose-strong:font-semibold
-                         prose-em:text-black/80 prose-em:italic
-                         prose-blockquote:border-l-4 prose-blockquote:border-black/20 prose-blockquote:pl-6 prose-blockquote:my-8
-                         prose-blockquote:text-black/80 prose-blockquote:font-medium prose-blockquote:text-xl
-                         prose-blockquote:not-italic prose-blockquote:bg-black/5 prose-blockquote:py-4 prose-blockquote:rounded-r-lg
-                         prose-ul:my-6 prose-li:text-black/90 prose-li:mb-2 prose-li:text-lg
-                         prose-ol:my-6
-                         prose-hr:border-black/20 prose-hr:my-12"
-              dangerouslySetInnerHTML={{ __html: post.content }}
-            />
           </div>
-        </div>
-        {/* Blank Footer for spacing */}
-        <div className="bg-[#F5F1E8]" style={{ height: '10vh' }}></div>
-      </>
+        ) : null}
+
+        <article
+          className="prose prose-lg max-w-none
+                     prose-stone dark:prose-invert
+                     prose-p:leading-relaxed prose-p:mb-6
+                     prose-headings:tracking-tight prose-headings:font-semibold prose-headings:mt-10 prose-headings:mb-4
+                     prose-h1:text-3xl prose-h2:text-2xl prose-h3:text-xl
+                     prose-li:leading-relaxed prose-li:mb-2
+                     prose-ul:my-6 prose-ol:my-6
+                     prose-a:underline prose-a:underline-offset-4 prose-a:decoration-black/30 dark:prose-a:decoration-white/30
+                     prose-blockquote:border-l-black/20 dark:prose-blockquote:border-l-white/25 prose-blockquote:bg-black/[0.03] dark:prose-blockquote:bg-white/[0.06] prose-blockquote:py-4 prose-blockquote:my-8
+                     prose-hr:my-10"
+          dangerouslySetInnerHTML={{ __html: post.content }}
+        />
+      </main>
     );
-  } catch {
+  } catch (error) {
+    console.error('Error loading post:', error);
     notFound();
   }
 }

@@ -2,7 +2,6 @@
 title: "When I Stop Talking, You'll Know I'm Dead by Jerry Weintraub"
 description: "Useful stories from a persuasive man"
 date: "2024-04-19"
-
 ---
 
 # When I Stop Talking, You'll Know I'm Dead: Useful Stories from a Persuasive Man
@@ -37,4 +36,4 @@ Weintraub's approach has influenced how I navigate challenges:
 
 ## Final Thoughts
 
-This memoir is less about the entertainment business and more about the timeless principles of human connection, persuasion, and determination. Weintraub's larger-than-life stories contain wisdom applicable to any industry or personal challenge. 
+This memoir is less about the entertainment business and more about the timeless principles of human connection, persuasion, and determination. Weintraub's larger-than-life stories contain wisdom applicable to any industry or personal challenge.

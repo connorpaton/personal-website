@@ -2,7 +2,6 @@
 title: "How to Win Friends and Influence People by Dale Carnegie"
 description: "Timeless principles for building meaningful relationships and effective communication"
 date: "2024-08-29"
-
 ---
 
 # How to Win Friends and Influence People: The Power of Human Connection

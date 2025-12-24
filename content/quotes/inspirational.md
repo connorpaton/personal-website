@@ -2,7 +2,6 @@
 title: "Inspirational Quotes"
 description: "A collection of quotes that have inspired me"
 date: "2024-05-10"
-
 ---
 
 # Inspirational Quotes
@@ -49,4 +48,4 @@ A collection of quotes that have shaped my thinking and provided guidance during
 
 > "The best way to find yourself is to lose yourself in the service of others." — Mahatma Gandhi
 
-> "People will forget what you said, people will forget what you did, but people will never forget how you made them feel." — Maya Angelou 
+> "People will forget what you said, people will forget what you did, but people will never forget how you made them feel." — Maya Angelou

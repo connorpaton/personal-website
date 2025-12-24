@@ -31,4 +31,4 @@ Every startup begins with an idea. For me, it started with identifying a common 
 
 ## Moving Forward
 
-The startup journey is a marathon, not a sprint. Success comes from persistence, adaptation, and learning from failures. 
+The startup journey is a marathon, not a sprint. Success comes from persistence, adaptation, and learning from failures.

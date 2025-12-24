@@ -2,7 +2,6 @@
 title: "Philosophical Quotes"
 description: "Thought-provoking philosophical quotes that challenge conventional thinking"
 date: "2024-05-12"
-
 ---
 
 # Philosophical Quotes
@@ -47,4 +46,4 @@ A collection of profound philosophical quotes that have expanded my perspective 
 
 > "You cannot change what you are, only what you do." — Philip Pullman
 
-> "Everything flows, nothing stands still." — Heraclitus 
+> "Everything flows, nothing stands still." — Heraclitus

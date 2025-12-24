@@ -2,7 +2,6 @@
 title: "Atomic Habits by James Clear"
 description: "A practical guide to building good habits and breaking bad ones"
 date: "2024-03-21"
-
 ---
 
 # Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones
@@ -38,4 +37,4 @@ I've applied several concepts from the book in my daily life:
 
 ## Final Thoughts
 
-This book isn't just about habits—it's about becoming the person you want to be through small, consistent actions. Highly recommended for anyone interested in personal development and behavioral psychology. 
+This book isn't just about habits—it's about becoming the person you want to be through small, consistent actions. Highly recommended for anyone interested in personal development and behavioral psychology.

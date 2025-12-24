@@ -39,4 +39,4 @@ Remember that strength training is only part of the equation. Your nutrition nee
 
 ## Getting Started
 
-Start with bodyweight exercises to build a foundation, then gradually add weight as your form improves. 
+Start with bodyweight exercises to build a foundation, then gradually add weight as your form improves.

@@ -11,6 +11,7 @@ export interface Post {
   slug: string;
   title: string;
   description: string;
+  date: string;
   image?: string;
   content: string;
   category: string;
@@ -18,6 +19,11 @@ export interface Post {
 
 export async function getPostBySlug(category: string, slug: string): Promise<Post> {
   const fullPath = path.join(contentDirectory, category, `${slug}.md`);
+  
+  if (!fs.existsSync(fullPath)) {
+    throw new Error(`Post not found: ${category}/${slug}.md`);
+  }
+  
   const fileContents = fs.readFileSync(fullPath, 'utf8');
   const { data, content } = matter(fileContents);
 
@@ -31,6 +37,7 @@ export async function getPostBySlug(category: string, slug: string): Promise<Pos
     slug,
     title: data.title,
     description: data.description,
+    date: data.date,
     image: data.image,
     content: contentHtml,
     category,
@@ -48,5 +55,13 @@ export async function getAllPosts(category: string): Promise<Post[]> {
     })
   );
 
-  return posts.sort((a, b) => (a.title > b.title ? 1 : -1));
+  return posts.sort((a, b) => (a.date < b.date ? 1 : -1));
 } 
+
+export async function getAllPostsAcrossCategories(categories: string[]): Promise<Post[]> {
+  const all = (
+    await Promise.all(categories.map(async (category) => getAllPosts(category)))
+  ).flat();
+
+  return all.sort((a, b) => (a.date < b.date ? 1 : -1));
+}

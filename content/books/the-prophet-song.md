@@ -2,7 +2,6 @@
 title: "The Prophet Song by Paul Lynch"
 description: "A dystopian novel about a family torn apart"
 date: "2024-05-03"
-
 ---
 
 # The Prophet Song: A Dystopian Warning
@@ -39,4 +38,4 @@ The novel's strengths and weaknesses:
 
 ## Final Thoughts
 
-Lynch's novel serves as a cautionary tale worth considering, even if the storytelling itself leaves something to be desired. Its value lies more in its warning about how quickly democratic norms can collapse than in its literary merit. The dystopian elements feel uncomfortably plausible, which makes the book worth reflecting on despite its shortcomings. 
+Lynch's novel serves as a cautionary tale worth considering, even if the storytelling itself leaves something to be desired. Its value lies more in its warning about how quickly democratic norms can collapse than in its literary merit. The dystopian elements feel uncomfortably plausible, which makes the book worth reflecting on despite its shortcomings.

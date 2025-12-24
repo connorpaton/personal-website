@@ -2,7 +2,6 @@
 title: "Embracing Uncertainty"
 description: "How learning to embrace uncertainty led to personal growth"
 date: "2024-03-18"
-
 ---
 
 # Embracing Uncertainty
@@ -40,4 +39,4 @@ When I left my stable corporate job to pursue entrepreneurship, the uncertainty 
 
 ## Moving Forward
 
-Remember that uncertainty is not your enemy—it's your teacher. Embrace it as a path to growth and new opportunities. 
+Remember that uncertainty is not your enemy—it's your teacher. Embrace it as a path to growth and new opportunities.

@@ -2,7 +2,6 @@
 title: "Shoe Dog by Phil Knight"
 description: "A memoir by the creator of Nike"
 date: "2024-04-05"
-
 ---
 
 # Shoe Dog: A Memoir by the Creator of Nike
@@ -37,4 +36,4 @@ Knight's journey has influenced my approach to business and life:
 
 ## Final Thoughts
 
-Shoe Dog isn't just a business memoir—it's a deeply human story about risk, relationships, and the relentless pursuit of something meaningful. Knight's vulnerability and honesty make this an inspiring read for entrepreneurs and dreamers alike. 
+Shoe Dog isn't just a business memoir—it's a deeply human story about risk, relationships, and the relentless pursuit of something meaningful. Knight's vulnerability and honesty make this an inspiring read for entrepreneurs and dreamers alike.

@@ -1,6 +1,7 @@
 import { getAllPosts } from '@/lib/markdown';
 import Link from 'next/link';
 import { Metadata } from 'next';
+import BackNav from '@/components/BackNav';
 
 export const metadata: Metadata = {
   title: 'Category',
@@ -28,7 +29,6 @@ export default async function Page(props: Props) {
   const { category } = params;
   const posts = await getAllPosts(category);
 
-  // Map category slugs to display names
   const categoryNames: { [key: string]: string } = {
     'lifelearnings': 'Life',
     'startups': 'Startups',
@@ -40,49 +40,43 @@ export default async function Page(props: Props) {
   const displayName = categoryNames[category] || category;
 
   return (
-    <>
-      {/* Top Bar */}
-      <div className="bg-[#F5F1E8]" style={{ height: '2vh' }}></div>
-      <div className="bg-[#F5F1E8] text-black pt-12 px-12 pb-12 md:pt-16 md:px-16 md:pb-16 lg:pt-20 lg:px-20 lg:pb-20" style={{ fontFamily: 'Recoleta, Georgia, "Times New Roman", serif', marginLeft: '5%' }}>
-        <div className="max-w-2xl mx-auto">
-          {/* Back Button */}
-          <Link 
-            href="/"
-            className="inline-flex items-center mb-6 text-black/70 hover:text-black transition-colors duration-200 group p-3 rounded-lg hover:bg-black/5"
+    <main className="container-raf py-16">
+      <header className="mb-12">
+        <BackNav href="/" label="← Home" />
+
+        <h1 className="mt-6 text-3xl sm:text-4xl font-semibold tracking-tight text-black dark:text-white">
+          {displayName}
+        </h1>
+        <p className="mt-4 text-lg leading-relaxed text-black/80 dark:text-white/80">
+          Browse {displayName.toLowerCase()} writing.
+        </p>
+      </header>
+
+      <div>
+        {posts.map((post) => (
+          <Link
+            key={post.slug}
+            href={`/${category}/${post.slug}`}
+            className="group block -mx-2 px-2 py-4 border-b border-black/10 dark:border-white/15
+                       hover:bg-black/[0.02] dark:hover:bg-white/[0.04] transition-colors"
           >
-            <svg 
-              className="w-5 h-5 mr-2 transform group-hover:-translate-x-1 transition-transform duration-200" 
-              fill="none" 
-              stroke="currentColor" 
-              viewBox="0 0 24 24"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-            </svg>
-            <span className="text-sm font-medium">Back</span>
+            <div className="flex items-baseline justify-between gap-4">
+              <div className="text-[15px] sm:text-base font-medium tracking-tight text-black dark:text-white">
+                {post.title}
+              </div>
+              <div className="text-xs text-black/60 dark:text-white/60 whitespace-nowrap">
+                {post.date}
+              </div>
+            </div>
+            <div className="mt-1 text-sm text-black/75 dark:text-white/75 leading-relaxed">
+              {post.description}
+            </div>
+            <div className="mt-2 text-[11px] tracking-wide text-black/60 dark:text-white/60 uppercase">
+              {category}
+            </div>
           </Link>
-          
-          <h1 className="text-4xl font-bold mb-8" style={{ fontWeight: '900' }}>{displayName}</h1>
-          
-          <div className="space-y-8">
-            {posts.map((post) => (
-              <Link
-                key={post.slug}
-                href={`/${category}/${post.slug}`}
-                className="group block"
-              >
-                <div className="inline-block bg-white/60 backdrop-blur-sm rounded-lg px-6 py-5 transition-all duration-300 hover:bg-white/80">
-                  <h2 className="text-2xl font-semibold mb-2 group-hover:text-black/70 transition-colors" style={{ fontWeight: '700' }}>
-                    {post.title}
-                  </h2>
-                  <p className="text-black/60">{post.description}</p>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
+        ))}
       </div>
-      {/* Blank Footer for spacing */}
-      <div className="bg-[#F5F1E8]" style={{ height: '10vh' }}></div>
-    </>
+    </main>
   );
 }
