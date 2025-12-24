@@ -18,7 +18,7 @@ export default async function Home() {
           <Nav />
         </div>
         <p className="mt-6 text-lg leading-relaxed text-black/80 dark:text-white/80">
-          I'm Connor — I build, write, and learn in public. This site is a living
+          I&apos;m Connor — I build, write, and learn in public. This site is a living
           notebook: short essays, notes, and takeaways on startups, life,
           fitness, books, and ideas.
         </p>

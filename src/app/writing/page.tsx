@@ -21,7 +21,7 @@ export default async function WritingPage() {
         <BackNav href="/" label="← Home" />
         <h1 className="mt-6 text-3xl sm:text-4xl font-semibold tracking-tight text-black dark:text-white">Writing</h1>
         <p className="mt-4 text-lg leading-relaxed text-black/80 dark:text-white/80">
-          Everything I've published here, across life learnings, startups, fitness, books, and quotes.
+          Everything I&apos;ve published here, across life learnings, startups, fitness, books, and quotes.
         </p>
       </header>
 
