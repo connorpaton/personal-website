@@ -1,6 +1,7 @@
 import { getPostBySlug, getAllPostsAcrossCategories } from '@/lib/markdown';
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
+import Image from 'next/image';
 import BackNav from '@/components/BackNav';
 
 export const metadata: Metadata = {
@@ -65,7 +66,7 @@ export default async function Page(props: Props) {
         {post.image && post.image.trim() !== '' ? (
           <div className="mb-10">
             <div className="overflow-hidden rounded-xl border border-black/10 dark:border-white/15 bg-black/[0.02] dark:bg-white/[0.04]">
-              <img src={post.image} alt={post.title} className="w-full h-auto object-cover" />
+              <Image src={post.image} alt={post.title} width={1200} height={630} className="w-full h-auto object-cover" />
             </div>
           </div>
         ) : null}
