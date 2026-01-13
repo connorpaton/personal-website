@@ -4,8 +4,6 @@ description: "Timeless principles for building meaningful relationships and effe
 date: "2024-08-29"
 ---
 
-# How to Win Friends and Influence People: The Power of Human Connection
-
 📚 [View on Goodreads](https://www.goodreads.com/book/show/4865.How_to_Win_Friends_and_Influence_People)
 
 Dale Carnegie's classic guide to interpersonal relationships remains as relevant today as when it was first published. This book fundamentally changed how I think about influence, leadership, and the delicate balance between being respected and being liked.

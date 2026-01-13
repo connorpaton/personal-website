@@ -4,8 +4,6 @@ description: "Life lessons from a dying professor"
 date: "2024-04-12"
 ---
 
-# Tuesdays with Morrie: An Old Man, a Young Man, and Life's Greatest Lesson
-
 📚 [View on Goodreads](https://www.goodreads.com/book/show/6900.Tuesdays_with_Morrie)
 
 Mitch Albom's poignant chronicle of his Tuesday conversations with his dying professor Morrie Schwartz has profoundly shaped my perspective on what truly matters in life.

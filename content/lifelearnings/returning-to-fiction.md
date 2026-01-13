@@ -4,8 +4,6 @@ description: "Why I started reading fiction again"
 date: "2025-12-18"
 ---
 
-# Returning to Fiction
-
 Growing up, I read obsessively.
 
 Magic Tree House.  

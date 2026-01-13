@@ -4,8 +4,6 @@ description: "A memoir by the creator of Nike"
 date: "2024-04-05"
 ---
 
-# Shoe Dog: A Memoir by the Creator of Nike
-
 📚 [View on Goodreads](https://www.goodreads.com/book/show/27220736-shoe-dog)
 
 Phil Knight's raw and honest memoir about founding Nike has provided me with invaluable insights into entrepreneurship, persistence, and the messiness of building something great.

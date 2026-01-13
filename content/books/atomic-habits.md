@@ -4,8 +4,6 @@ description: "A practical guide to building good habits and breaking bad ones"
 date: "2024-03-21"
 ---
 
-# Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones
-
 📚 [View on Goodreads](https://www.goodreads.com/book/show/40121378-atomic-habits)
 
 James Clear's masterpiece on habit formation has fundamentally changed how I approach personal development and daily routines.

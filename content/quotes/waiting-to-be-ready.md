@@ -4,8 +4,6 @@ description: "A reflection on Hugh Laurie's wisdom about taking action"
 date: "2024-12-23"
 ---
 
-# On Waiting to Be Ready
-
 > "It's a terrible thing, I think, in life to wait until you're ready."
 > - Hugh Laurie
 

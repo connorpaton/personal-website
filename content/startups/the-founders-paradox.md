@@ -5,8 +5,6 @@ date: "2024-03-21"
 image: "/images/startup-curve.png"
 ---
 
-# The Founder's Paradox
-
 *Was It Worth It? What I Gave Up to Build This*
 
 > First they doubt you.
