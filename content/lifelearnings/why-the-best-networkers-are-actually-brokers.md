@@ -4,7 +4,7 @@ description: "My thoughts on relationship building (not the dating kind, I suck 
 date: "2026-01-15"
 ---
 
-Hey guys - wanted to write about one of 2 moats I think are left in today&apos;s day and age. Relationships. The other is data but I will save that for another day.
+Hey guys - wanted to write about one of two moats I think are left in today&apos;s day and age. Relationships. The other is data but I will save that for another day.
 
 Over the years I have read dozens of books on building relationships. Never Eat Alone. How to Win Friends and Influence People. Give and Take. They're all different, but they boil down to the same thing: genuine interest in other people and helping without expecting anything back.
 
