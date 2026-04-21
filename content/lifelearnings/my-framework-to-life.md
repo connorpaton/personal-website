@@ -1,10 +1,8 @@
 ---
 title: "My Framework to Life"
-description: "Standards are set by proximity."
+description: "things I live by"
 date: "2026-01-20"
 ---
-
-Standards are set by proximity.
 
 ## Irrational Self-Belief
 
