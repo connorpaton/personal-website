@@ -1,41 +1,37 @@
 ---
 title: "How to Win Friends and Influence People by Dale Carnegie"
-description: "Timeless principles for building meaningful relationships and effective communication"
+description: "Less performing. More listening. And a lot less ego."
 date: "2024-08-29"
 ---
 
 📚 [View on Goodreads](https://www.goodreads.com/book/show/4865.How_to_Win_Friends_and_Influence_People)
 
-Dale Carnegie's classic guide to interpersonal relationships remains as relevant today as when it was first published. This book fundamentally changed how I think about influence, leadership, and the delicate balance between being respected and being liked.
+The title makes this sound more transactional than I think it is.
 
-## Key Concepts
+Read it as a collection of tricks for getting people to like you and you miss the part that matters: actually being interested in them.
 
-1. **The Foundation of Influence**
-   - Genuine interest in others creates lasting connections
-   - Making people feel important is the key to winning them over
-   - Criticism destroys relationships; appreciation builds them
+People can be interesting without being useful to you.
 
-2. **The Art of Communication**
-   - Listen more than you speak
-   - Ask questions that lead people to their own conclusions
-   - Acknowledge others' viewpoints before presenting your own
+## Who Cares Who Gets Credit?
 
-## Practical Applications
+One of my biggest takeaways is ego management.
 
-Carnegie's principles have fundamentally shaped my approach to relationships and leadership:
+If an idea moves things forward, who cares whose idea it was? That sounds obvious until you're the one who has to let go of the credit.
 
-- **Ego Management**: If it moves you forward, who cares who gets credit for the idea - letting others shine creates stronger alliances
-- **Intellectual Humility**: Never be the smartest person in a room - surrounding yourself with brilliant minds accelerates growth
-- **Strategic Positioning**: Understanding the crucial difference between respectability and likeability in professional contexts
+The same goes for being the smartest person in the room. I'd rather be around people who see things I don't. But that only works if I spend enough time listening to hear them.
 
-## Favorite Quotes
+Carnegie's advice is simple. Practicing it requires paying attention to someone other than yourself.
 
-> "You can make more friends in two months by becoming interested in other people than you can in two years by trying to get other people interested in you."
+## Liked Isn't the Same as Respected
 
-> "The only way to get the best of an argument is to avoid it."
+This is the tension I find most relevant to building with people.
 
-> "A person's name is to that person the sweetest and most important sound in any language."
+You want good relationships. You also need to be able to disagree, give honest feedback, and say something that might not be popular.
 
-## Final Thoughts
+I don't read this book as an argument for avoiding every uncomfortable conversation. I read it as a reminder that understanding someone should come before trying to persuade them.
 
-While some dismiss Carnegie's work as manipulative, I've found it to be the opposite - it's about genuine human connection and creating value for others. The book's genius lies in showing that influence isn't about dominating others, but about understanding what drives them and finding mutual benefit. The tension between being respected versus being liked is one of leadership's greatest challenges, and Carnegie provides a framework for navigating both.
+Ask a real question. Let them finish. Understand what matters to them before explaining what matters to you.
+
+None of that feels manipulative to me. Going through the motions without caring would.
+
+Worth reading, especially if your instinct is to talk your way through every problem.

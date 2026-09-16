@@ -1,41 +1,31 @@
 ---
 title: "The Prophet Song by Paul Lynch"
-description: "A dystopian novel about a family torn apart"
+description: "A warning worth thinking about. A novel I struggled to connect with."
 date: "2024-05-03"
 ---
 
 📚 [View on Goodreads](https://www.goodreads.com/book/show/61431922-prophet-song)
 
-Despite winning the Booker Prize in 2023, Paul Lynch's "The Prophet Song" struck me as a rather mundane read that failed to fully engage me on an emotional level.
+I wanted to connect with this book more than I did.
 
-## Key Concepts
+The premise is unsettling: a family trying to hold together as the world around them becomes more authoritarian. The gradual loss of what once felt normal. Choices narrowing before people fully accept that things have changed.
 
-1. **Authoritarian Creep**
-   - The gradual normalization of state control
-   - How civil liberties can erode incrementally
-   - The dangers of political apathy and complacency
+There's a lot there to think about. But as a reading experience, I found it tedious more often than absorbing.
 
-2. **Family Fragmentation**
-   - The human cost of political upheaval
-   - How systemic pressure breaks down social bonds
-   - The impossible choices forced upon ordinary people
+## The Idea Landed. The Characters Didn't.
 
-## Dystopian Resemblances
+For me, the characters too often felt like vehicles for the warning rather than people I felt close to.
 
-While I didn't particularly enjoy the book, I couldn't help but notice disturbing parallels to real-world developments:
+That's a problem in a story where the human cost is the point. I could understand what was at stake without feeling as emotionally invested as I wanted to be.
 
-- **Information Control**: The manipulation of media and communication channels
-- **Manufactured Consent**: How populations are guided to accept restriction of freedoms
-- **Institutional Corruption**: The vulnerability of supposedly democratic systems
+An important subject doesn't automatically make a compelling novel. And not connecting with the novel doesn't mean dismissing the subject.
 
-## Critical Assessment
+## What Stayed With Me
 
-The novel's strengths and weaknesses:
+The strongest idea is how much people can normalize, a little at a time.
 
-- Conceptually compelling but often tedious in execution
-- Characters that felt more like vehicles for ideas than fully realized people
-- A narrative that, while important, lacked the emotional resonance to make its message truly impactful
+Information gets controlled. Institutions become less dependable. What would once have seemed unacceptable starts to feel like the conditions you have to live with.
 
-## Final Thoughts
+That is worth sitting with, even though I didn't enjoy the book.
 
-Lynch's novel serves as a cautionary tale worth considering, even if the storytelling itself leaves something to be desired. Its value lies more in its warning about how quickly democratic norms can collapse than in its literary merit. The dystopian elements feel uncomfortably plausible, which makes the book worth reflecting on despite its shortcomings.
+I don't have a startup lesson to pull out of this one. Some books deserve to be considered on their own terms. My reaction is simply mixed: a warning I take seriously, told in a way that didn't quite reach me.

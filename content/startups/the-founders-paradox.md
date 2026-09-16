@@ -1,64 +1,57 @@
 ---
 title: "The Founder's Paradox"
-description: "Was It Worth It? What I Gave Up to Build This"
+description: "What I've given up to build this, and why I still don't have a clean answer."
 date: "2024-03-21"
 image: "/images/startup-curve.png"
 ---
 
-*Was It Worth It? What I Gave Up to Build This*
+Was it worth it?
 
-> First they doubt you.
-> Then they hate you… for being right.
-> But no one ever really talks about what happens **in between**.
+I still don't know.
 
-There's that seductive startup mantra:
+There's a version of the startup story where you trade a normal job for freedom, work hard, and eventually make the sacrifice make sense. It's a good story. It leaves out most of the time you actually spend building.
 
-> "Work 80 hours for yourself so you don't have to work 40 for someone else."
+## Most of It Is the Flatline
 
-Sure - but let's be honest: that's the bumper sticker version. The full story? It's messier. More brutal. More beautiful. It comes with a cost most people never see coming.
+The beginning gets plenty of attention. Early users. New ideas. The feeling that something is happening.
 
-And it looks a little something like this:
+Then there's the stretch where the novelty wears off and you still have to show up. The Trough of Sorrow. Motivation gets harder to find. Progress is harder to see. The sacrifices keep accumulating whether or not the company is moving.
 
-Founders love to glorify the early spike - the "TechCrunch of Initiation," the dopamine hit of early users, the excitement of novelty.
+That's the part I wish we talked about more honestly.
 
-But the truth? **Most of the journey lives in the flatline.** That long, lonely trench called the *Trough of Sorrow.*
+## Know What You're Signing Up For
 
-That's where momentum dies, motivation fades, and sacrifices quietly pile up.
+When younger founders ask me for advice, I come back to the difference between a business and a startup.
 
-When younger founders (yes, even younger than me - 17-year-olds are out here raising real rounds) ask for advice, I tell them this:
+A business can be built to sustain itself. A venture-backed startup takes on a different set of expectations. You're working with money and time that will run out, trying to make enough progress before they do.
 
-**Know the difference between a business and a startup.**
+Raising capital doesn't remove that pressure. It makes the commitment real.
 
-A business can sustain.
-A startup is built on borrowed time and borrowed money - with the hope that both won't run out before the "Promised Land."
+I don't think that makes it the wrong choice. I do think it's worth understanding before treating it as the obvious next step.
 
-Raising capital? It sounds glamorous. But it's a loaded contract:
-**You deliver, or you die trying.**
+## What Gets Traded
 
----
-
-And when you're deep in the valley - here's what gets traded without you even realizing it:
+Some of the cost is easy to name:
 
 - Friendships
-- Relationships  
+- Relationships
 - Mental bandwidth
-- Childhood dreams (RIP my post-grad trip to Thailand)
+- Plans I thought I'd have time for, including my post-grad trip to Thailand
+
+The harder part is how quietly it happens. There isn't always a moment where you sit down and decide what you're willing to give up. You just keep choosing the company.
 
 As *Fullmetal Alchemist* put it:
 
 > "Humankind cannot gain anything without first giving something in return."
 
-That quote haunts me. Because most of the sacrifices come slow - and they come without warning.
+That line stays with me. So far, I've given up more than I've gained, for what feels like a 10% shot at building something that lasts.
 
-I've given up more than I've gained.
-All for a 10% shot at building something that lasts.
+## No Clean Answer Yet
 
-So was it worth it?
+I care about what I'm building. I also care about what it costs.
 
-I still don't know.
+Both can be true. I don't want to pretend every sacrifice is noble just because it happened for a startup. And I don't want to dismiss the work because the outcome is still uncertain.
 
-But if you're reading this while navigating your own *Crash of Ineptitude* or clinging to a "Wiggle of False Hope," know this:
+If you're somewhere in that flatline, I don't have an ending to offer you. I'm still in it too.
 
-**You're not crazy. You're just building.**
-
-This is *The Founder's Paradox.*
+That's the paradox for me. Being committed to something without yet knowing whether the trade was worth it.

@@ -1,0 +1,172 @@
+.page {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 40px 24px 64px;
+}
+
+.intro { margin: 64px 0 36px; }
+.eyebrow {
+  font-family: ui-monospace, monospace;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: rgb(var(--muted-rgb));
+}
+.intro h1 {
+  font-size: clamp(40px, 6vw, 64px);
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.055em;
+  margin: 16px 0 20px;
+}
+.intro > p:last-child { font-size: 16px; line-height: 1.7; color: rgba(var(--foreground-rgb), 0.65); }
+.mapFrame {
+  --walk-sky: #c0ccca;
+  --walk-haze: #d6c6b4;
+  --walk-cloud: #e9dfc8;
+  --walk-far-mountain: #929799;
+  --walk-mountain: #6e8290;
+  --walk-mountain-shadow: #596977;
+  --walk-snow: #dbddd2;
+  --walk-meadow: #8b9b76;
+  --walk-grass: #738b64;
+  --walk-grass-light: #b8ba85;
+  --walk-pine: #476d57;
+  --walk-pine-shadow: #305645;
+  --walk-bark: #494c3e;
+  --walk-sand: #c2b996;
+  --walk-water: #6d9f9d;
+  --walk-foam: #cad4b4;
+  --walk-path: #b6ab89;
+  --walk-cabin: #a07d57;
+  --walk-roof: #825744;
+  --walk-window: #f0c986;
+  --walk-flower: #e2b393;
+  --walk-person: #a55645;
+  overflow: hidden;
+  border: 1px solid rgba(var(--border-rgb), 0.13);
+  border-radius: 8px;
+}
+:global(.dark) .mapFrame {
+  --walk-sky: #182b3c;
+  --walk-haze: #354253;
+  --walk-cloud: #677483;
+  --walk-far-mountain: #455365;
+  --walk-mountain: #3a5269;
+  --walk-mountain-shadow: #293d52;
+  --walk-snow: #8eaaa9;
+  --walk-meadow: #455949;
+  --walk-grass: #354e40;
+  --walk-grass-light: #6c7c60;
+  --walk-pine: #28463b;
+  --walk-pine-shadow: #1a332e;
+  --walk-bark: #252f30;
+  --walk-sand: #727768;
+  --walk-water: #315e69;
+  --walk-foam: #8db0ad;
+  --walk-path: #78816b;
+  --walk-cabin: #66533f;
+  --walk-roof: #453e3b;
+  --walk-window: #f3c577;
+  --walk-flower: #bd9d81;
+  --walk-person: #b37152;
+}
+.map { position: relative; aspect-ratio: 8 / 5; color: #21332c; }
+.landscape { width: 100%; height: 100%; display: block; }
+.daySky { display: block; }
+.nightSky { display: none; }
+:global(.dark) .daySky { display: none; }
+:global(.dark) .nightSky { display: block; }
+.mapCaption {
+  position: absolute;
+  top: 22px;
+  left: 24px;
+  font: 10px ui-monospace, monospace;
+  color: #334c4c;
+}
+:global(.dark) .mapCaption { color: #bdc5bd; }
+.marker {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0;
+  white-space: nowrap;
+  font: 11px ui-monospace, monospace;
+  cursor: pointer;
+}
+.markerLabel {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 11px;
+  border: 1px solid #ffffff60;
+  border-radius: 3px;
+  background: #f6f1dfec;
+  color: #243b34;
+  box-shadow: 0 3px 0 #243b3424;
+}
+.markerDot { font-size: 9px; opacity: 0.6; }
+.marker:hover .markerLabel, .selectedMarker .markerLabel { background: #294e41; color: #f4eed8; border-color: #bbc8ae; }
+.marker:focus-visible { outline: none; }
+.marker:focus-visible .markerLabel { outline: 3px solid #f8d58e; outline-offset: 4px; }
+:global(.dark) .markerLabel { background: #20372fec; color: #e3e3c9; border-color: #a4b2a266; }
+:global(.dark) .marker:hover .markerLabel, :global(.dark) .selectedMarker .markerLabel { background: #eee1b9; color: #253a32; }
+.mapPreview {
+  position: absolute;
+  top: 26px;
+  right: 24px;
+  width: 220px;
+  color: #334c4c;
+  text-align: right;
+  pointer-events: none;
+}
+.mapPreview span { display: block; font: 9px ui-monospace, monospace; text-transform: uppercase; letter-spacing: 0.08em; }
+.mapPreview strong { display: block; margin-top: 7px; font-size: 12px; font-weight: 400; line-height: 1.5; }
+.mapPreview p { font-size: 11px; line-height: 1.65; margin-top: 8px; }
+.previewCard { padding: 16px; background: var(--walk-sky); border: 1px solid #ffffff30; border-radius: 3px; }
+:global(.dark) .mapPreview { color: #d1d6ca; }
+.mapFooter {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px 20px;
+  font: 10px / 1.6 ui-monospace, monospace;
+  color: rgb(var(--muted-rgb));
+  background: rgba(var(--border-rgb), 0.02);
+}
+.reading { display: grid; grid-template-columns: 1fr 1.55fr; gap: 56px; padding-top: 44px; scroll-margin-top: 24px; }
+.placeIntro h2 { margin: 12px 0; font-size: 26px; line-height: 1.2; font-weight: 500; letter-spacing: -0.04em; }
+.placeIntro > p:not(.eyebrow) { font-size: 14px; line-height: 1.8; color: rgba(var(--foreground-rgb), 0.65); }
+.placeIntro .selectionStatus { margin-top: 20px; font-family: ui-monospace, monospace; font-size: 10px !important; }
+.essayLink { display: flex; align-items: baseline; gap: 18px; padding: 22px 0; border-bottom: 1px solid rgba(var(--border-rgb), 0.12); }
+.essayLink:first-child { padding-top: 0; }
+.essayNumber { font: 10px ui-monospace, monospace; color: rgb(var(--muted-rgb)); }
+.essayLink h3 { font-size: 16px; line-height: 1.5; font-weight: 500; letter-spacing: -0.015em; }
+.essayLink p { margin-top: 6px; font-size: 13px; line-height: 1.75; color: rgba(var(--foreground-rgb), 0.65); }
+.arrow { margin-left: auto; padding-left: 5px; }
+.essayLink:hover h3 { text-decoration: underline; text-underline-offset: 4px; }
+.essayLink:focus-visible, .note a:focus-visible, .footer a:focus-visible { outline: 2px solid currentColor; outline-offset: 5px; }
+.note { padding: 28px; border: 1px solid rgba(var(--border-rgb), 0.12); border-radius: 4px; background: rgba(172, 126, 69, 0.06); }
+.noteLabel { font: 10px ui-monospace, monospace; letter-spacing: 0.05em; color: rgb(var(--muted-rgb)); }
+.note blockquote { margin: 20px 0; font-size: 21px; line-height: 1.65; letter-spacing: -0.025em; }
+.note a { font-size: 11px; line-height: 1.8; text-decoration: underline; text-underline-offset: 4px; }
+.footer { display: flex; justify-content: space-between; gap: 24px; margin-top: 64px; padding-top: 24px; border-top: 1px solid rgba(var(--border-rgb), 0.12); font-size: 11px; line-height: 1.8; color: rgb(var(--muted-rgb)); }
+.footer a { flex-shrink: 0; text-decoration: underline; text-underline-offset: 4px; }
+
+@media (max-width: 640px) {
+  .page { padding: 28px 20px 40px; }
+  .intro { margin: 44px 0 28px; }
+  .intro > p:last-child { max-width: 30ch; font-size: 14px; }
+  .mapCaption, .mapPreview, .markerDot { display: none; }
+  .marker { font-size: 10px; }
+  .markerLabel { padding: 6px 7px; }
+  .mapFooter { padding: 12px; font-size: 9px; }
+  .mapFooter > span:not(:first-child) { display: none; }
+  .reading { grid-template-columns: 1fr; gap: 28px; padding-top: 32px; }
+  .placeIntro .selectionStatus { margin-top: 10px; }
+  .placeIntro h2 { font-size: 24px; }
+  .note { padding: 22px; }
+  .footer { flex-direction: column; gap: 10px; margin-top: 40px; }
+}

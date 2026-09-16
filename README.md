@@ -2,7 +2,8 @@
 
 My personal website built with Next.js 15.3.1, featuring:
 
-- Interactive background and draggable categories
+- Dithered landscape post cards with matching light and dark palettes
+- An optional interactive landscape for exploring writing at `/walk`
 - Book reviews and summaries
 - Collections of inspirational and philosophical quotes
 - Personal insights on startups, fitness, and life learnings
@@ -18,6 +19,20 @@ My personal website built with Next.js 15.3.1, featuring:
 ## Deployment
 
 The site is deployed on Vercel.
+
+## Landscapes and the Walk
+
+Post-card photo assignments live in `scripts/post-landscapes.json`. After adding
+or changing an assignment, run `node scripts/dither-post-landscapes.mjs` to
+regenerate the day and night thumbnails. This requires network access; the
+generated PNGs are committed so the website itself does not need external image
+requests. Source and license details are in `public/images/posts/CREDITS.md`.
+
+The homepage's **Take a walk** link opens `/walk`. Each map location selects a
+curated reading list; the campfire contains a reflection linked to its source
+essay. Edit the locations, post paths, and campfire text in `src/lib/walk.ts`.
+The scene is SVG, follows the site's theme, and uses keyboard-accessible buttons.
+The regular writing archive remains available from the map.
 
 ## Running Locally
 

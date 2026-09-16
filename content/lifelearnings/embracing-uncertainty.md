@@ -1,42 +1,37 @@
 ---
 title: "Embracing Uncertainty"
-description: "How learning to embrace uncertainty led to personal growth"
+description: "You can prepare for a decision without knowing how it ends."
 date: "2024-03-18"
 ---
 
-# Embracing Uncertainty
+I like certainty. Knowing what's expected, what comes next, and whether the effort is going somewhere.
 
-Life's most valuable lessons often come from embracing the unknown and stepping outside our comfort zones.
+Leaving my stable corporate job to pursue entrepreneurship took a lot of that away. The uncertainty was overwhelming.
 
-## The Fear of Unknown
+I didn't get through it by suddenly becoming someone who loved risk. What helped was giving myself things I could actually work with: people to lean on, backup plans, and a focus on learning rather than trying to guarantee the outcome.
 
-We're naturally programmed to seek certainty and stability. However, the most significant growth opportunities often lie in the uncertain paths we're afraid to take.
+## You Don't Have to Enjoy It
 
-## Key Insights
+I don't think discomfort automatically means you're growing. Sometimes it means you need to stop and pay attention.
 
-1. **Comfort Zone is the Enemy of Growth**
-   - Why we resist change
-   - The biology of fear
-   - Breaking through barriers
+But discomfort alone isn't a good enough reason to rule something out, either. An unfamiliar path can feel wrong simply because you don't know how to walk it yet.
 
-2. **Learning Through Discomfort**
-   - Small steps lead to big changes
-   - Building resilience
-   - Creating new neural pathways
+The useful question is whether there's something worth exploring on the other side of that feeling.
 
-3. **Practical Steps**
-   - Start with small challenges
-   - Document your journey
-   - Celebrate small wins
+## Make the Next Step Smaller
 
-## Personal Experience
+You don't have to solve the whole future before taking a step.
 
-When I left my stable corporate job to pursue entrepreneurship, the uncertainty was overwhelming. Here's how I navigated it:
+Start with a challenge you can act on. Write down what happens. Notice the small wins instead of dismissing them because they aren't the final outcome.
 
-- Developed a support system
-- Created backup plans
-- Focused on learning rather than outcomes
+That gives you something more useful than another round of worrying: information about what to do next.
 
-## Moving Forward
+## Keep Some Support Around You
 
-Remember that uncertainty is not your enemy—it's your teacher. Embrace it as a path to growth and new opportunities.
+Having a support system mattered to me. So did making backup plans.
+
+I don't see either as a lack of belief. You can care deeply about a direction and still acknowledge that it might not work the way you hope.
+
+Focusing on learning helped me make room for that. I couldn't control every outcome, but I could pay attention and adjust.
+
+That's what embracing uncertainty means to me. Not celebrating the fact that you don't know. Being willing to move without pretending that you do.

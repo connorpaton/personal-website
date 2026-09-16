@@ -1,39 +1,39 @@
 ---
 title: "When I Stop Talking, You'll Know I'm Dead by Jerry Weintraub"
-description: "Useful stories from a persuasive man"
+description: "Ask boldly. Understand the other person. Keep your word."
 date: "2024-04-19"
 ---
 
 📚 [View on Goodreads](https://www.goodreads.com/book/show/6919806-when-i-stop-talking-you-ll-know-i-m-dead)
 
-Jerry Weintraub's autobiography offers an extraordinary masterclass in relationship building, creative problem-solving, and the art of making things happen in business and entertainment.
+Jerry Weintraub makes things happen. That's the appeal of this book for me.
 
-## Key Concepts
+The entertainment stories are the setting. What interests me is the combination of persistence, persuasion, and relationships underneath them.
 
-1. **Relentless Persistence**
-   - The power of refusing to take "no" for an answer
-   - How to turn rejection into opportunity
-   - Finding creative solutions to impossible problems
+## Make the Ask
 
-2. **Relationship Currency**
-   - Building and maintaining a powerful network
-   - The importance of keeping your word
-   - How to create win-win scenarios that benefit everyone
+It's easy to reject an idea on someone else's behalf before you've even asked them.
 
-## Practical Applications
+Weintraub's approach pushes in the other direction. Make the ambitious request. Look for another way when the obvious one doesn't work. Spend more energy finding a possibility than explaining why there isn't one.
 
-Weintraub's approach has influenced how I navigate challenges:
+I like that bias toward action.
 
-- **Bold Asking**: Making ambitious requests without fear
-- **Value Creation**: Finding ways to help others achieve their goals
-- **Showmanship**: Recognizing when presentation matters as much as substance
+But persistence isn't the same as ignoring what someone tells you. The useful part is getting creative about the problem, not treating every boundary as an invitation to push harder.
 
-## Favorite Quotes
+## Understand Their Side
 
-> "The person who makes it is the person who keeps going after everyone else has quit."
+The relationship lesson is more interesting than just knowing a lot of people.
 
-> "If you want someone to hear you, you have to speak to them in their language. If you want someone to see your point of view, you have to see the world through their eyes."
+What does the other person want? What can you help them do? Why would this be worth their time?
 
-## Final Thoughts
+Those questions make an ambitious ask more than a request for a favor. They force you to think beyond your own excitement.
 
-This memoir is less about the entertainment business and more about the timeless principles of human connection, persuasion, and determination. Weintraub's larger-than-life stories contain wisdom applicable to any industry or personal challenge.
+And then you have to keep your word. A good pitch might get someone interested. Following through is what gives them a reason to trust you again.
+
+## Substance Still Matters
+
+There's a place for showmanship. How you tell a story can change whether anyone pays attention to it.
+
+But I want to take the boldness from this book without confusing presentation with delivery. Both matter.
+
+Worth reading for the stories and the push to act. Less waiting for permission. More figuring out how to make something work for the people involved.

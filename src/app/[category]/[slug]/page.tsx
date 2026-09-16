@@ -48,18 +48,18 @@ export default async function Page(props: Props) {
     const displayCategory = categoryLabels[category] || category;
 
     return (
-      <main className="container-essay py-16">
-        <header className="mb-10">
+      <main className="container-essay pt-8 pb-20 sm:pt-14 sm:pb-28">
+        <header className="mb-8 border-b border-black/10 pb-8 dark:border-white/10 sm:mb-10 sm:pb-10">
           <BackNav href={`/${category}`} label="← Back" />
 
-          <h1 className="mt-8 text-3xl sm:text-4xl font-semibold tracking-tight text-black dark:text-white">{post.title}</h1>
+          <h1 className="mt-8 text-3xl sm:text-4xl font-semibold leading-[1.15] tracking-tight text-balance text-black dark:text-white">{post.title}</h1>
           {post.description ? (
-            <p className="mt-4 text-lg leading-relaxed text-black/80 dark:text-white/80">{post.description}</p>
+            <p className="mt-5 text-base sm:text-lg leading-relaxed text-black/65 dark:text-white/70">{post.description}</p>
           ) : null}
-          <div className="mt-4 text-sm text-black/60 dark:text-white/60">
-            <span className="uppercase tracking-wide">{displayCategory}</span>
+          <div className="mt-6 flex flex-wrap items-center text-xs leading-relaxed text-black/60 dark:text-white/60">
+            <span className="uppercase tracking-wider">{displayCategory}</span>
             <span className="mx-2 text-black/35 dark:text-white/35">/</span>
-            <span>{post.date}</span>
+            <time dateTime={post.date}>{post.date}</time>
           </div>
         </header>
 

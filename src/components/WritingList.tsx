@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import Link from 'next/link';
+import PostCard from '@/components/PostCard';
 
 type Post = {
   slug: string;
@@ -69,31 +69,10 @@ export default function WritingList({ posts }: WritingListProps) {
           </p>
         ) : (
           filteredPosts.map((post) => (
-            <Link
-              key={`${post.category}:${post.slug}`}
-              href={`/${post.category}/${post.slug}`}
-              className="group block -mx-2 px-2 py-4 border-b border-black/10 dark:border-white/15
-                         hover:bg-black/[0.02] dark:hover:bg-white/[0.04] transition-colors"
-            >
-              <div className="flex items-baseline justify-between gap-4">
-                <div className="text-[15px] sm:text-base font-medium tracking-tight text-black dark:text-white">
-                  {post.title}
-                </div>
-                <div className="text-xs text-black/60 dark:text-white/60 whitespace-nowrap">
-                  {post.date}
-                </div>
-              </div>
-              <div className="mt-1 text-sm text-black/75 dark:text-white/75 leading-relaxed">
-                {post.description}
-              </div>
-              <div className="mt-2 text-[11px] tracking-wide text-black/60 dark:text-white/60 uppercase">
-                {categoryLabels[post.category] ?? post.category}
-              </div>
-            </Link>
+            <PostCard key={`${post.category}:${post.slug}`} post={post} />
           ))
         )}
       </div>
     </>
   );
 }
-
