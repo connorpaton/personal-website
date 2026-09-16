@@ -44,6 +44,7 @@ export default function PostCard({ post }: PostCardProps) {
           alt=""
           width={256}
           height={256}
+          loading="eager"
           unoptimized
           className="size-full object-cover dark:hidden [image-rendering:pixelated]"
         />
@@ -52,6 +53,7 @@ export default function PostCard({ post }: PostCardProps) {
           alt=""
           width={256}
           height={256}
+          loading="eager"
           unoptimized
           className="hidden size-full object-cover dark:block [image-rendering:pixelated]"
         />
